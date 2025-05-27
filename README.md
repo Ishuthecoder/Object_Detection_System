@@ -2,7 +2,7 @@
 
 A comprehensive object detection implementation using EfficientDet-D2 backbone with Single Shot Detector (SSD) approach on the PASCAL VOC 2012 dataset.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Dataset](#dataset)
@@ -17,7 +17,7 @@ A comprehensive object detection implementation using EfficientDet-D2 backbone w
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🔍 Overview
+##  Overview
 
 This project implements a state-of-the-art object detection system using the EfficientDet-D2 model as a backbone with a Single Shot Detector (SSD) approach. The system is trained and evaluated on the PASCAL VOC 2012 dataset, achieving robust performance in detecting and localizing multiple objects within images.
 
@@ -28,7 +28,7 @@ This project implements a state-of-the-art object detection system using the Eff
 - **Comprehensive Evaluation**: Precision, Recall, and Mean Average Precision (mAP) metrics
 - **Modular Design**: Clean separation of data loading, training, and evaluation components
 
-## 📊 Dataset
+##  Dataset
 
 **Dataset**: PASCAL VOC 2012  
 **Location**: `C:\Users\dubey\Downloads\archive\VOC2012`
@@ -39,7 +39,7 @@ The PASCAL VOC 2012 dataset contains:
 - XML annotation files with bounding box coordinates
 - Train/validation splits for model development
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backbone Model
 - **EfficientDet-D2**: Advanced compound scaling method for object detection
@@ -51,7 +51,7 @@ The PASCAL VOC 2012 dataset contains:
 - **Multi-scale Detection**: Detection at multiple feature map scales
 - **Anchor-based**: Predefined anchor boxes for object localization
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ```python
 # Core Libraries
@@ -72,7 +72,7 @@ from sklearn.metrics import precision_score, recall_score, average_precision_sco
 - **scikit-learn**: Evaluation metrics
 - **XML ElementTree**: Annotation parsing
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 object-detection-project/
@@ -98,7 +98,7 @@ object-detection-project/
 └── README.md            # Project documentation
 ```
 
-## ⚙️ Implementation Details
+##  Implementation Details
 
 ### 1. Data Loading Pipeline
 - **XML Parsing**: Extract bounding box coordinates and class labels from VOC annotations
@@ -122,7 +122,7 @@ object-detection-project/
 - **Recall**: True Positive / (True Positive + False Negative)
 - **Mean Average Precision (mAP)**: Average precision across all classes and IoU thresholds
 
-## 🚀 Installation
+##  Installation
 
 1. **Clone the repository**
 ```bash
@@ -146,7 +146,7 @@ pip install tensorflow opencv-python scikit-learn numpy matplotlib
 - Extract to your desired location
 - Update dataset path in configuration
 
-## 📖 Usage
+##  Usage
 
 ### Training the Model
 
